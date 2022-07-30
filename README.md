@@ -22,7 +22,7 @@
 
 ### Screenshot
 
-![7](./screenshotP11.png)
+![7](./screenshotP11.jpeg)
 
 ## Device support
 
