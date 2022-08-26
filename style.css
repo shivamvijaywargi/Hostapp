@@ -601,3 +601,61 @@ select {
   color: var(--color-blue-dark);
   letter-spacing: 0.05rem;
 }
+
+@media (max-width: 884px) {
+  .nav__items {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 0; */
+  }
+
+  .navbar + section {
+    margin-top: 0;
+  }
+
+  .hero__heading {
+    margin-top: 1rem;
+  }
+
+  .hero__right {
+    margin-top: 3rem;
+  }
+
+  .services__text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing__cards {
+    flex-direction: column;
+  }
+
+  .pricing__card--popular {
+    transform: none;
+  }
+
+  .pricing__card:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .reviews__cards {
+    grid-template-columns: repeat(auto-fit, minmax(20.5rem, 1fr));
+  }
+
+  .quit__worrying-container {
+    flex-direction: column;
+  }
+
+  .quit__worrying__right {
+    margin-top: 2rem;
+  }
+
+  .footer__item--heading {
+    margin-top: 2rem;
+  }
+}
